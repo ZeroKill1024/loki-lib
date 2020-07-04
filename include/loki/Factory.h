@@ -758,6 +758,9 @@ template <typename AP, typename Id, typename P1 >
 ///  from SmallObject by defining the macro:
 /// \code LOKI_FUNCTOR_IS_NOT_A_SMALLOBJECT \endcode
 ////////////////////////////////////////////////////////////////////////////////
+#define FACTORY_AUTO_REGISTER(FACTORY_TYPE, FACTORY_INSTANCE, ID, CREATOR) \
+	static FACTORY_TYPE::AutoRegister FACTORY_TYPE##_##ID##_REGISTER(FACTORY_INSTANCE, #ID, CREATOR);
+
     template
     <
         class AbstractProduct,
@@ -792,6 +795,17 @@ template <typename AP, typename Id, typename P1 >
         typedef AssocVector<IdentifierType, ProductCreator> IdToProductMap;
 
         IdToProductMap associations_;
+
+	public:
+		class AutoRegister
+		{
+		public:
+			AutoRegister(Factory<AbstractProduct, IdentifierType, CreatorParmTList, FactoryErrorPolicy> &factor,
+				const IdentifierType& id, ProductCreator creator)
+			{
+				factor.Register(id, creator);
+			}
+		};
 
     public:
 
