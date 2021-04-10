@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="more headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="more headers\flexstring">
+      <UniqueIdentifier>{aaa09cb2-dff8-42dc-bdfd-5e354855ffc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{cada72ea-ac15-4622-8445-69c2ba36c196}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\loki\AbstractFunction.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\AssocVector.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\DataGenerators.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\EmptyType.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\Function.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\HierarchyGenerators.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\LockingPtr.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\LokiTypeInfo.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\MultiMethods.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\NullType.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\OrderedStatic.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\SafeFormat.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\ScopeGuard.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\Sequence.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\Singleton.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\SmallObj.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\SmartPtr.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\static_check.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\Threads.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\Tuple.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\Typelist.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\TypelistMacros.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\TypeManip.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\TypeTraits.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\Visitor.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\flex\allocatorstringstorage.h">
+      <Filter>more headers\flexstring</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\flex\cowstringopt.h">
+      <Filter>more headers\flexstring</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\flex\flex_string.h">
+      <Filter>more headers\flexstring</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\flex\flex_string_details.h">
+      <Filter>more headers\flexstring</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\flex\flex_string_shell.h">
+      <Filter>more headers\flexstring</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\flex\simplestringstorage.h">
+      <Filter>more headers\flexstring</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\flex\smallstringopt.h">
+      <Filter>more headers\flexstring</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\flex\vectorstringstorage.h">
+      <Filter>more headers\flexstring</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\loki\Functor.h">
+      <Filter>more headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Singleton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SmallObj.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionTest.cpp" />
+  </ItemGroup>
+</Project>
